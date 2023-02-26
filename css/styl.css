@@ -1,0 +1,146 @@
+body {
+    line-height: 1.9;
+    font-family: century-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: #030b5c;
+}
+.nav-link{
+    color: white;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -ms-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+.nav-link:hover{
+    color: #1462ce!important;
+}
+
+.background 
+{
+    height: 100%;
+     background-image: url(../imges/R.jfif);
+     background-size: cover;
+     background-position: 100% 100%;
+     background-repeat: no-repeat;
+}
+
+.area{
+
+    background-image: url(../images/france.svg);
+    background-size: cover;
+}
+.area .search {width: 60%;}
+
+.area #search-bar {
+    padding: 4px 10px;
+    border: 3px solid #203fdc;
+    border-radius: 20px;
+    background-color:#000a7497;
+    color: #fff;
+}
+
+.area .temp-card {
+    width: 30%;
+    border-radius: 8px;
+}
+
+.area .temp-card:first-of-type {
+    background-color: #030b5c;;
+}
+.area .temp-card:first-of-type h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.area .temp-card:first-of-type .day-and-date {
+    background-color: #0c1d75;
+}
+
+.area .temp-card:nth-of-type(2) {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.area .temp-card:nth-of-type(2), 
+.area .temp-card:nth-of-type(3) {
+    background-color: #175397ce;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.area .temp-card:nth-of-type(2):hover,
+.area .temp-card:nth-of-type(3):hover {background-color:#030b5c;}
+
+.area .temp-card .day-and-date {
+    background-color: #0c1d75;
+    color: #d1d5e1;
+    padding: 10px 25px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.area .temp-card .day-and-date p {margin: 0 !important;}
+
+.area .temp-card #location {
+    font-size: 22px;
+    text-shadow: 0 0 1px #fff,  0 0 1px #fff
+}
+
+.area .temp-card .temp-datails {
+    padding: 25px;
+    color: #fff;
+}
+
+.area .temp-card .temp-datails #today-description,
+.area .temp-card .temp-datails .nextDay-description {
+    font-size: 15px;
+    color: #1c0958;
+    text-shadow: 0 0 1px #04046c,  0 0 1px #130f72;
+}
+@media (max-width: 991px) 
+{
+ 
+
+    .area .city-temp {display: block !important;}
+
+    .area #search-bar {margin-bottom: 10px !important;}
+
+    .area .search,
+    .area .temp-card {
+        width: 100%;
+        margin: 10px 0 !important;
+    }
+
+    
+}
+
+
+
+footer {
+    background-color: #030b5c;
+    padding: 10px 0;
+}
+
+footer i {
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+footer i:hover {color: #2e8ded;}
+
+
+
